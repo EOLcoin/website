@@ -708,6 +708,11 @@ i.fa.fa-circle-o {
     border-radius: 0px;
     transform: rotate(45deg);
 }
+.fa.fa-chevron-right, .fa.fa-chevron-left{
+position: absolute;
+top: 50%;
+z-index: 5;
+display: inline-block;}
 /* Progetto */
 #featured-hotel,
 #testimonial,
@@ -1040,7 +1045,7 @@ i.fa.fa-circle-o {
     transition:all .6s;
     opacity: 0;
 }
-.flowus a i{
+.flowus a{
     font-size:1em;
     margin: 10px;
     color:#f38181;
