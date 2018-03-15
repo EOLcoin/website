@@ -1,126 +1,122 @@
-
-
-/*
-Author: Bootstrapthemes
-Author URI: http://www.bootstrapthemes.co
-*/
-
 /* Portrait tablets and medium desktops */
 @media (max-width: 1199px) {
     body {
         font-size: 1rem;
     }
 }
-
 /* Portrait tablets and small desktops */
 @media (max-width: 991px) {
     html {
         font-size: 90%;
     }
-
-.hide-in-md{
-    display: none!important;
-}
+    .row {
+        margin: 0 !important;
+    }
+    .hide-in-md {
+        display: none !important;
+    }
     h3 {
         font-size: 1.575rem;
-       
         margin-bottom: 15px;
     }
     h5 {
-        font-size: 1.1rem;
         margin-bottom: .5rem;
         color: #696f7c;
         line-height: 1.475rem;
     }
-    h4 {
-        font-size: 1.225rem;
-        
+    #prospettive span {
+        font-size: 18px;
     }
-    .main_counter_area ul li{
-        width:50%;
+    .main_counter_area ul li {
+        width: 50%;
     }
     .team .main_team .main_team_content .single_team .single_team_overlay a i {
         width: 45px;
         height: 45px;
         font-size: 1.575rem;
         line-height: 45px;
-    }    
+    }
     .single_widget .single_widget_blog .single_widget_content p.monseratregular {
         font-size: 0.65rem;
         margin-bottom: 0px;
-        max-width: 100%; 
+        max-width: 100%;
         line-height: 1rem;
     }
     .single_widget .single_widget_blog .single_widget_content {
         margin-top: 0px;
     }
-
-
-
 }
-@media  (min-width: 768px) {
-   /* #tabs ul{
-        margin-left:20px;
+@media (min-width: 768px) {
+    .hide-in-lg {
+        display: none !important;
     }
-    #tabs ul li{
-        list-style-type: circle;
-    } */
-   
-    .hide-in-lg{
-        display:none!important;
+    .flex-center-lg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-.flex-center-lg{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.text-left-bg{
-    text-align: left;
+    .tab-content img {
+        float: right;
     }
-    .text-right-bg{
+    .text-left-bg {
+        text-align: left;
+    }
+    .text-right-bg {
         text-align: right;
     }
-    #tabs ul{
-        margin-left:20px;
+    #tabs ul {
+        margin-left: 20px;
+    }
+    .single_team_content {
+        height: 100px;
     }
 }
 /* Landscape phones and portrait tablets */
-@media  (max-width: 768px) {
+@media (max-width: 768px) {
     html {
         font-size: 80%;
     }
-    .hide-in-sm{
-        display: none!important;
+    .hide-in-sm {
+        display: none !important;
     }
-    .spacing-in-sm{
+    .spacing-in-sm {
         margin-top: 20px;
+    }
+    .navbar-brand>img {
+        width: 50px;
+        margin-top: -12px;
     }
     .home .main_home h1,
     .home .main_home h2,
     .home .main_home h3 {
         text-align: center;
     }
-    .text-center-sm{
+    .home .main_home {
+        padding-top: 100px;
+    }
+    .head_title {
+        margin-bottom: 50px;
+    }
+    .text-center-sm {
         text-align: center;
     }
-    .main_counter_area ul li{
-        width:100%;
+    .main_counter_area ul li {
+        width: 100%;
     }
-    #tabs .tabs-nav > a {
-        width: 11.1%!important;
-    }  
-    .tab-content img{
+    #tabs .tabs-nav>a {
+        width: 11.1% !important;
+    }
+    .tab-content img {
         width: 50%;
         margin: 0 auto;
-    } 
-    
+    }
     .portfolio .grid_item_overlay {
         padding-top: 15%;
     }
-    .copyright_text{
+    .copyright_text {
         text-align: center;
     }
-    .footer_socail{ 
+    .footer_socail {
         text-align: center;
     }
     .footer_subcribs_area .navbar-form {
@@ -129,27 +125,27 @@ Author URI: http://www.bootstrapthemes.co
     .footer_subcribs_area .submit_btn {
         line-height: 22px;
     }
-
-.owl-carousel .owl-controls .owl-nav .owl-prev {
-    float: none;
-    margin-top:0;
+    .owl-carousel .owl-controls .owl-nav .owl-prev {
+        float: none;
+        margin-top: 0;
+    }
+    .owl-carousel .owl-controls .owl-nav .owl-next {
+        float: none;
+        margin-top: 0;
+    }
+    video {
+        margin-top: 80px;
+    }
+    .single_client_img {
+        margin-bottom: 40px;
+    }
+    .single_client {
+        margin-bottom: 40px;
+    }
+    .main_clinetslogo img {
+        margin-bottom: 50px;
+    }
 }
-.owl-carousel .owl-controls .owl-nav .owl-next {
-    float: none;
-    margin-top:0;
-}
-
-video{
-    margin-top: 80px;
-}
-
-
-
-
-}
-
-
-
 /* Landscape phones and smaller */
 @media (max-width: 479px) {
     html {
@@ -158,41 +154,26 @@ video{
     .home .main_home h1 {
         font-size: 2.5rem;
         line-height: 6rem;
-    } 
+    }
     .portfolio .grid_item_overlay {
         padding-top: 25%;
     }
-    .portfolio .grid_item_overlay p{
+    .portfolio .grid_item_overlay p {
         display: none;
     }
-
 }
-
-
-
-
-
 @media (max-width: 320px) {
-
-
     html {
         font-size: 60.5%;
     }
     .home .main_home h1 {
         font-size: 3rem;
         line-height: 5rem;
-    } 
+    }
     .portfolio .grid_item_overlay {
         padding-top: 25%;
     }
-    .portfolio .grid_item_overlay p{
+    .portfolio .grid_item_overlay p {
         display: none;
     }
-
-
-
-
-
-
 }
-

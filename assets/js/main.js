@@ -1,6 +1,5 @@
 "use strict";
 
-
 jQuery(document).ready(function ($) {
 
     $(window).load(function () {
@@ -27,14 +26,11 @@ jQuery(document).ready(function ($) {
         }
     });
 
-
-
     /*---------------------------------------------*
      * STICKY scroll
      ---------------------------------------------*/
 
 //    $(".nav").localScroll();
-
 
     /*---------------------------------------------*
      * WOW
@@ -45,7 +41,6 @@ jQuery(document).ready(function ($) {
     });
     wow.init();
 
-
     /*---------------------------------------------*
      * Counter 
      ---------------------------------------------*/
@@ -54,7 +49,6 @@ jQuery(document).ready(function ($) {
         delay: 10,
         time: 2000
     });
-
 
     /* ---------------------------------------------------------------------
      Carousel
@@ -102,10 +96,7 @@ jQuery(document).ready(function ($) {
             "<i class='fa fa-chevron-right'></i>"
         ],
         autoplayHoverPause: true
-
     });
-
-
 
 // main-menu-scroll
 
@@ -135,8 +126,6 @@ jQuery(document).ready(function ($) {
         return false;
     });
 
-
-
 //    $('#menu').slicknav();
 
     $('#mixcontent').mixItUp({
@@ -145,7 +134,6 @@ jQuery(document).ready(function ($) {
             effects: 'fade rotateX(-45deg) translateY(-10%)'
         }
     });
-
 
     $('.dropdown-menu').click(function (e) {
         e.stopPropagation();
@@ -157,9 +145,7 @@ jQuery(document).ready(function ($) {
             itemSelector: '.grid-item',
         });
     });
-
 	   // Tabs
-
 	   var tabs = function() {
 		$('#progetto').css('height', $('.tab-content.active').height() + 600);
   
@@ -188,41 +174,7 @@ jQuery(document).ready(function ($) {
 		   e.preventDefault();
 		});
        };
-     
-/*
-   var tabs = function() {
-    $('#hotel-facilities').css('height', $('.tab-content.active').height() + 600);
-
-    $(window).resize(function(){
-       $('#hotel-facilities').css('height', $('.tab-content.active').height() + 600);
-    });
-
-    $('.tabs-nav > a').on('click', function(e){
-       
-       var tab = $(this).data('tab');
-
-       $('.tabs-nav > a').removeClass('active');
-       $(this).addClass('active');
-
-       $('.tab-content').removeClass('active show');
-       
-       setTimeout(function(){
-          $('.tab-content[data-tab-content="'+tab+'"]').addClass('active');
-          $('#hotel-facilities').css('height', $('.tab-content.active').height() + 600);
-       }, 200);
-       setTimeout(function(){
-          $('.tab-content[data-tab-content="'+tab+'"]').addClass('show');
-       }, 400);
-       
-
-       e.preventDefault();
-    });
- };
-*/
 });
-
-
-
 
 $(document).on("scroll", function () {
     if ($(document).scrollTop() > 120) {
@@ -231,6 +183,3 @@ $(document).on("scroll", function () {
         $("nav").removeClass("small");
     }
 });
-
-
-
