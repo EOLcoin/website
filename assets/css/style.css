@@ -952,7 +952,9 @@ p {
     color: #f38181;
 }
 /*Team section*/
-
+.img-circle {
+    background: white;
+}
 .team .main_team .main_team_content {
     overflow: auto;
 }
