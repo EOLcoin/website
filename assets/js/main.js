@@ -42,7 +42,7 @@ jQuery(document).ready(function ($) {
   wow.init();
 
   /*---------------------------------------------*
-   * Counter 
+   * Counter
    ---------------------------------------------*/
 
   $('.statistic-counter').counterUp({
@@ -175,7 +175,7 @@ jQuery(document).ready(function ($) {
     });
   };
 
-  let dateEnd = new Date(2018, 5, 8, 12, 0, 0, 0);
+  let dateEnd = new Date(2018, 4, 16, 12, 0, 0, 0);
 
   $('#clock').countdown(dateEnd, function(event) {
     $(this).html(event.strftime('%D days %H:%M:%S'));
