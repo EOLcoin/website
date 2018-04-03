@@ -177,7 +177,7 @@ jQuery(document).ready(function ($) {
 
   let dateEnd = new Date(2018, 4, 16, 12, 0, 0, 0);
 
-  $('#clock').countdown('2018/05/08 12:00:00', function(event) {
+  $('#clock').countdown('2018/05/15 12:00:00', function(event) {
     $(this).html(event.strftime('%D days %H:%M:%S'));
   });
 });
