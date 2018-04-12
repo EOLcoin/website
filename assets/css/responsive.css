@@ -1,7 +1,24 @@
+@media (min-width: 1200px) {
+
+    #clock {
+      font-size: 64px;
+    }
+  }
+
 /* Portrait tablets and medium desktops */
 @media (max-width: 1199px) {
     body {
         font-size: 1rem;
+    }
+}
+@media (min-width: 991px) {
+    .flex-center-md {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn-token-first{
+        float: left;
     }
 }
 /* Portrait tablets and small desktops */
@@ -23,6 +40,17 @@
         margin-bottom: .5rem;
         color: #696f7c;
         line-height: 1.475rem;
+    }
+    .home .main_home h1,
+    .home .main_home h2,
+    .home .main_home h3 {
+        text-align: center;
+    }
+    .home .main_home {
+        padding-top: 180px;
+    }
+    .btn-token-first{
+        margin-bottom: 50px;
     }
     #prospettive span {
         font-size: 18px;
@@ -86,14 +114,7 @@
         width: 50px;
         margin-top: -12px;
     }
-    .home .main_home h1,
-    .home .main_home h2,
-    .home .main_home h3 {
-        text-align: center;
-    }
-    .home .main_home {
-        padding-top: 100px;
-    }
+
     .head_title {
         margin-bottom: 50px;
     }
