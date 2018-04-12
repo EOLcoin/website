@@ -15,18 +15,6 @@ html, body {
   width: 100%;
 }
 
-.btn-token {
-  background: #000000 !important;
-  color: #fff !important;
-  font-size: 21px !important;
-  border-radius: 3px !important;
-  padding: 10px !important;
-  height: auto !important;
-}
-
-.btn-token:hover {
-  background: #a90e0e !important;
-}
 
 .preloader {
   position: fixed;
@@ -334,6 +322,20 @@ ul {
   border-color: #f38181;
 }
 
+.btn-token, .btn-token-first {
+  background: #000000;
+  color: #fff;
+  font-size: 21px;
+  border-radius: 3px;
+  padding: 10px;
+  height: auto;
+}
+
+.btn-token:hover, .btn-token-first:hover {
+  background: #a90e0e;
+  color: #fff;
+}
+/*
 .btn {
   display: inline-block;
   min-width: 160px;
@@ -345,7 +347,7 @@ ul {
   margin: 0;
   font-size: 20px;
   border-radius: 0px;
-  margin-top: 20px;
+  margin-top: 10px;
   background-color: transparent;
   transition: .5s;
   border: 1px solid #fff;
@@ -370,7 +372,7 @@ ul {
   border: 1px solid #fff;
   color: #fff;
   padding: 6px 30px;
-}
+}*/
 
 /*
    Extra height css
@@ -1083,6 +1085,10 @@ video {
 #clock {
   font-size: 5vw;
   margin: 32px 0;
+  text-align: center;
+}
+#not-list{
+  margin: 20px 0px;
   text-align: center;
 }
 
